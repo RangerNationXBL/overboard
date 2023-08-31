@@ -53,7 +53,7 @@ canvas.rowconfigure(0, weight=1)
 #canvas.create_text(300, 20, text='top @ 400px but at center --->')
 #canvas.create_text(200, 300, text='bottom edge --->', angle=(-90))
 
-# Can't seem to get this to work very well
+# Can't seem to get this to work very well, when it does it will be put into a function.
 
 #hyp_sq = math.sqrt((adjacent / 2) ** 2 + opposite ** 2)
 #angle = math.atan((adjacent / 2) / opposite)
@@ -130,7 +130,7 @@ def layout_items():
   angle = calculate_angle()
   # Center, the very center of the triangle
   canvas.create_line(400, 0, 400, 375, fill='blue')
-  # Base, from where the triangle starts
+  # Base, from where the triangle starts I used two to make them shrink when triangle is drawn
   canvas.create_line(0, 350, (canvas_center - base / 2), 350, fill='red')
   canvas.create_line((canvas_center + base / 2), 350, 795, 350, fill='red')
 
