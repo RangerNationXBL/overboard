@@ -11,6 +11,7 @@ import math
 ## of that triangle on screem. Numbers are kinda boring, art is not.     ##
 ###########################################################################
 
+
 ####################################
 ## Initalization and Housekeeping ##
 ####################################
@@ -23,7 +24,7 @@ window.geometry(f'{window_width}x{window_height}')
 window.resizable(False, False)
 window.title('The triangle')
 window.rowconfigure(1, weight=1)
-window.columnconfigure(1, weight=1)
+window.columnconfigure(1, weight=1)  
 
 #some safety precautions for error checking.
 max_pixel_height = 325
@@ -77,6 +78,8 @@ canvas.rowconfigure(0, weight=1)
 lable_frame = ttk.LabelFrame(window, text='User Input', width=750, height=175)
 lable_frame.grid(row=1, column=0, sticky='ewns', padx=10, pady=10)
 
+info_label = ttk.Label(lable_frame, text='  This program is still in development').grid(row=0, column=2)
+info_label = ttk.Label(lable_frame, text='  max base = 600, max height = 300').grid(row=1, column=2)
 # Inputs and Labels
 base_label = ttk.Label(lable_frame, text='Enter the base', justify='center')
 height_label = ttk.Label(lable_frame,
