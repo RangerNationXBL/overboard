@@ -1,4 +1,7 @@
 # Import the good stuff tk and ttk to make some things look good
+# Triagnle calculations
+# Code created by Chris
+# August 27 2023
 
 import tkinter as tk
 from tkinter import ttk
