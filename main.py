@@ -37,14 +37,6 @@ base = 600
 height = 300
 area = 0
 
-## Functions for the thing to work well
-
-
-def calculate_angle():
-  slope = height / (base / 2)
-  degrees = math.degrees(math.atan(slope))
-  return degrees
-
 
 #################################
 ## Canvas and Draw for program ##
@@ -189,6 +181,11 @@ def check_errors(value):
 
 def reset():
   canvas.delete('all')
+  
+def calculate_angle():
+  slope = height / (base / 2)
+  degrees = math.degrees(math.atan(slope))
+  return degrees
 
 
 #layout_items()
