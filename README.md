@@ -6,3 +6,5 @@ This is the start of my over the top calculating the area of a triangle. I am ne
 The file in the repository is already functioning as a basic program. I plan on doing more over the top things to it.
 
 The comments are the items I am trying to make work..
+
+I am stuck on mathing things together for some display features, It's all commented out at this time. I also noticed that this readme is not very special and I should add more information in it about the program.
