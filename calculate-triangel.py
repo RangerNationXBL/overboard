@@ -11,8 +11,8 @@ class  Window:
         #frame = Frame(master, height=200, width=800).pack()
         inputs = LabelFrame(master, text='User Inputs', bg='white', height=150, width=750).pack()
         
-        self.mybutton = Button(inputs, text='submit')
-        self.mybutton.pack()
+        self.submit_button = Button(inputs, text='submit')
+        self.submit_button.pack()
 
 display = Window(root)
         
